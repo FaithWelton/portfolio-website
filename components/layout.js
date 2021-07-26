@@ -36,6 +36,10 @@ export default function Layout({ children, home }) {
             </header>
 
             <main>{children}</main>
+
+            <footer className={styles.footer}>
+                <p>{footer}</p>
+            </footer>
         </div>
     )
 }

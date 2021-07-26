@@ -23,10 +23,11 @@ export default function Contact() {
             </section>
 
             <section className={utilStyles.p}>
-                <p><Link href="https://www.linkedin.com/in/faithmadore/">LinkedIn</Link></p>
+                <div class="contact-info">
+                    <p>faithmadore@hotmail.com</p>
+                    <p><Link href="https://www.linkedin.com/in/faithmadore/">LinkedIn</Link></p>
+                </div>
             </section>
-
-            <footer>{footer}</footer>
         </Layout>
     )
 }

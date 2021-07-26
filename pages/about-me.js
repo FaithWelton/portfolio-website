@@ -23,11 +23,10 @@ export default function About() {
             </section>
 
             <section className={utilStyles.p}>
-                <p>??????????</p>
+                <p class="about-me">I am currently attending Conestoga College for the Software Engineering Technology program.
+                    At the time of writing this I will be going into my third and final year.
+                </p>
             </section>
-
-
-            <footer>{footer}</footer>
         </Layout>
     )
 }

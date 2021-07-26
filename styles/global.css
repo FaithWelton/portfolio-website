@@ -5,6 +5,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     font-size: 18px;
+    height: 100%;
+    overflow: hidden;
 }
 
 * {
@@ -31,6 +33,13 @@ div.menu-bar {
     text-align: center;
 }
 
+/* About Me Page */
+p.about-me {
+    font-size: 18px;
+    height: 420px;
+}
+
+/* Projects Page */
 div.project-rows {
     display: inline-flex;
 }
@@ -44,17 +53,28 @@ div.project-cols {
     text-align: center;
 }
 
-div.card {
+div.card-group {
     width: 200px;
 }
 
 h5.card-title {
     font-size: 20px;
     border-bottom: 1px solid #35669e;
+    margin: 10px;
+}
+
+div.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 380px;
 }
 
 p.card-text {
     font-size: 18px;
+}
+
+footer.card-footer {
+    padding-top: 5px;
 }
 
 a.btn-projects {
@@ -62,9 +82,17 @@ a.btn-projects {
     border-radius: 5px;
     background-color: #35669e;
     color: floralwhite;
-    padding: 2px;
-    margin: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 50px;
+    padding-right: 50px;
     text-align: center;
+}
+
+/* Contact Page */
+p.contact-info {
+    font-size: 18px;
+    height: 420px;
 }
 
 footer {
@@ -72,5 +100,5 @@ footer {
     font-size: 18px;
     border-top: 1px solid #35669e;
     width: 100%;
-    margin-top: 10%;
+    margin-top: 15px;
 }

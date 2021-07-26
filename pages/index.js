@@ -17,8 +17,6 @@ export default function Home() {
           <Link href="/contact-me"> Contact</Link>
         </p>
       </div>
-
-      <footer>{footer}</footer>
     </Layout>
   )
 }

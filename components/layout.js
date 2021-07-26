@@ -4,8 +4,10 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Faith Madore'
+const name = 'Hi, I\'m Faith!'
 export const siteTitle = 'Faith\'s Portfolio'
+export const footer = <strong>This website was made by Faith Madore 2021</strong>
+
 
 export default function Layout({ children, home }) {
     return (

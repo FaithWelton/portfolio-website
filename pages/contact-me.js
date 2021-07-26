@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout, { siteTitle } from '../components/layout'
+import Layout, { siteTitle, footer } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Contact() {
@@ -26,9 +26,7 @@ export default function Contact() {
                 <p><Link href="https://www.linkedin.com/in/faithmadore/">LinkedIn</Link></p>
             </section>
 
-            <footer>
-                This website was made by me!
-            </footer>
+            <footer>{footer}</footer>
         </Layout>
     )
 }

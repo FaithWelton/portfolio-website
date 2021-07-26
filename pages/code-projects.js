@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout, { siteTitle } from '../components/layout'
+import Layout, { siteTitle, footer } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
 export default function Projects() {
@@ -27,49 +27,48 @@ export default function Projects() {
                     <div class="project-cols">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Project Name</h5>
-                                <p class="card-text">Description of project</p>
+                                <h5 class="card-title">Deal or No Deal</h5>
+                                <p class="card-text">Simple console game made in c++ where the player must choose from 26 briefcases containing 
+                                    different unknown amounts of money. The remaining briefcases will be opened while the player
+                                    receives offers to quit before their briefcase is revealed.</p>
                                 <a href="#" class="btn-projects">Demo</a>
-                                <a href="#" class="btn-projects">Code</a>
+                                <a href="https://github.com/FaithMadore/DoND" class="btn-projects">Code</a>
                             </div>
                         </div>
                     </div>
                     <div class="project-cols">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Project Name</h5>
-                                <p class="card-text">Description of project</p>
+                                <h5 class="card-title">TCPIP Chat App</h5>
+                                <p class="card-text">Small client-server chat application made in C#</p>
                                 <a href="#" class="btn-projects">Demo</a>
-                                <a href="#" class="btn-projects">Code</a>
+                                <a href="https://github.com/FaithMadore/SimpleChatApp" class="btn-projects">Code</a>
                             </div>                            
                         </div>
                     </div>
                     <div class="project-cols">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Project Name</h5>
-                                <p class="card-text">Description of project</p>
+                                <h5 class="card-title">TCP Web Server</h5>
+                                <p class="card-text">Simple TCP web server with logging and client-server communications</p>
                                 <a href="#" class="btn-projects">Demo</a>
-                                <a href="#" class="btn-projects">Code</a>
+                                <a href="https://github.com/FaithMadore/WDD-A6" class="btn-projects">Code</a>
                             </div>
                         </div>
                     </div>
                     <div class="project-cols">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title">Project Name</h5>
-                                <p class="card-text">Description of project</p>
-                                <a href="#" class="btn-projects">Demo</a>
-                                <a href="#" class="btn-projects">Code</a>
+                                <h5 class="card-title">Portfolio Website</h5>
+                                <p class="card-text">My personal Portfolio website - you're currently here!</p>
+                                <a href="https://github.com/FaithMadore/portfolio-website" class="btn-projects">Code</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <footer>
-                This website was made by me!
-            </footer>
+            <footer>{footer}</footer>
         </Layout>
     )
 }

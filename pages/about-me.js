@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Layout, { siteTitle } from '../components/layout'
+import Layout, { siteTitle, footer } from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
 
 export default function About() {
@@ -19,17 +19,15 @@ export default function About() {
             </div>
 
             <section className={utilStyles.headingMd}>
-                <h1 className="title">All About Me!</h1>
+                <h1 className="title">Let me introduce myself...</h1>
             </section>
 
             <section className={utilStyles.p}>
-                <p>This will have some details about who I am, what I do</p>
+                <p>??????????</p>
             </section>
 
 
-            <footer>
-                This website was made by me!
-            </footer>
+            <footer>{footer}</footer>
         </Layout>
     )
 }

@@ -18,7 +18,7 @@ export default function Layout({ children }) {
 
             <header className={styles.header}>
                 <Image priority src="/images/profile.jpg" className={utilStyles.borderCircle} height={144} width={144} alt={Constants.name} />
-                <h2 className={utilStyles.headingLg}>
+                <h2 className={utilStyles.headingXl}>
                     <Link href="/">
                         <a className={utilStyles.colorInherit}>{Constants.name}</a>
                     </Link>

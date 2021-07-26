@@ -16,51 +16,19 @@ export default function Projects() {
 
             <section className={utilStyles.p}>
                 <div class="project-rows">
-                    <div class="project-cols">
+                    {Constants.projects.map(x => {
+                        return (<div class="project-cols">
                         <div class="card-group">
                             <div class="card-body">
-                                <h5 class="card-title">{Constants.project1}</h5>
-                                <p class="card-text">{Constants.project1desc}</p>
+                                <h5 class="card-title">{x.title}</h5>
+                                <p class="card-text">{x.content}</p>
                             </div>
                             <footer class="card-footer">
-                                <a href={Constants.project1git} class="btn-projects">Code</a>
+                                <a href={x.git} class="btn-projects">Code</a>
                             </footer>
                         </div>
-                    </div>
-                    <div class="project-cols">
-                        <div class="card-group">
-                            <div class="card-body">
-                                <h5 class="card-title">{Constants.project2}</h5>
-                                <p class="card-text">{Constants.project2desc}</p>
-                            </div>  
-                            <footer class="card-footer">
-                                <a href={Constants.project2git} class="btn-projects">Code</a>
-                            </footer>
-                        </div>
-                    </div>
-                    <div class="project-cols">
-                        <div class="card-group">
-                            <div class="card-body">
-                                <h5 class="card-title">{Constants.project3}</h5>
-                                <p class="card-text">{Constants.project3desc}</p>
-                            </div>
-                            <footer class="card-footer">
-                                <a href={Constants.project3git} class="btn-projects">Code</a>
-                            </footer>
-
-                        </div>
-                    </div>
-                    <div class="project-cols">
-                        <div class="card-group">
-                            <div class="card-body">
-                                <h5 class="card-title">{Constants.project4}</h5>
-                                <p class="card-text">{Constants.project4desc}</p>
-                            </div>
-                            <footer class="card-footer">
-                                <a href={Constants.project4git} class="btn-projects">Code</a>
-                            </footer>
-                        </div>
-                    </div>
+                    </div>)
+                    })}
                 </div>
             </section>
         </Layout>

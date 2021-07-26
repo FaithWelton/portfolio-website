@@ -1,12 +1,13 @@
 import Head from 'next/head'
-import Layout, { siteTitle, email, linkedin } from '../components/layout'
+import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
+import * as Constants from '../components/constants'
 
 export default function Contact() {
     return (
         <Layout home>
             <Head>
-                <title>{siteTitle}</title>
+                <title>{Constants.siteTitle}</title>
             </Head>
 
             <section className={utilStyles.headingMd}>
@@ -15,8 +16,8 @@ export default function Contact() {
 
             <section className={utilStyles.p}>
                 <div class="contact-info">
-                    <a href={email} class="btn-contact">Email</a>
-                    <a href={linkedin} class="btn-contact">LinkedIn</a>
+                    <a href={Constants.email} class="btn-contact">Email</a>
+                    <a href={Constants.linkedin} class="btn-contact">LinkedIn</a>
                 </div>
             </section>
         </Layout>

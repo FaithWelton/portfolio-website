@@ -1,12 +1,13 @@
 import Head from 'next/head'
-import Layout, { siteTitle, about } from '../components/layout'
+import Layout from '../components/layout'
 import utilStyles from '../styles/utils.module.css'
+import * as Constants from '../components/constants'
 
 export default function About() {
     return (
         <Layout home>
             <Head>
-                <title>{siteTitle}</title>
+                <title>{Constants.siteTitle}</title>
             </Head>
 
             <section className={utilStyles.headingMd}>
@@ -14,7 +15,15 @@ export default function About() {
             </section>
 
             <section className={utilStyles.p}>
-                <p class="about-me">{about}</p>
+                <div class="about-me">
+                    <p>{Constants.about}</p>
+
+                    <h3>Education</h3>
+                    <p class="about=me">{Constants.education}</p>
+
+                    <h3>Skills</h3>
+                    <p class="about-me">{Constants.skills}</p>
+                </div>
             </section>
         </Layout>
     )

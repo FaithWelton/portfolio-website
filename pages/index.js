@@ -1,11 +1,12 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout from '../components/layout'
+import * as Constants from '../components/constants'
 
 export default function Home() {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>{Constants.siteTitle}</title>
       </Head>
     </Layout>
   )

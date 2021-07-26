@@ -77,7 +77,7 @@ footer.card-footer {
     padding-top: 5px;
 }
 
-a.btn-projects {
+a.btn-projects, a.btn-contact {
     border: 1px solid #35669e;
     border-radius: 5px;
     background-color: #35669e;
@@ -90,9 +90,13 @@ a.btn-projects {
 }
 
 /* Contact Page */
-p.contact-info {
+div.contact-info {
     font-size: 18px;
     height: 420px;
+}
+
+a.btn-contact {
+    margin-right: 5px;
 }
 
 footer {

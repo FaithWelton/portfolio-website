@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
@@ -17,7 +16,7 @@ export default function Layout({ children }) {
             </Head>
 
             <header className={styles.header}>
-                <Image priority src="/images/profile.jpg" className={utilStyles.borderCircle} height={144} width={144} alt={Constants.name} />
+                <img src="/images/profile.jpg" className={utilStyles.borderCircle} height={144} width={144} alt={Constants.name} />
                 <h2 className={utilStyles.headingXl}>
                     <Link href="/">
                         <a className={utilStyles.colorInherit}>{Constants.name}</a>

@@ -1,11 +1,18 @@
-export const siteTitle = 'Faith\'s Portfolio'
+export const siteTitle = "Faith\'s Portfolio"
 export const footer = <strong>This website was made by Faith Welton - Updated 2022</strong>
 
-export const firstname = 'Faith'
-export const lastname = 'Welton'
-export const email = 'mailto:faithmadore@hotmail.com'
-export const linkedin = 'https://www.linkedin.com/in/faithwelton/'
-export const about = 'I am a fresh graduate from Conestoga College\'s SET program, where I\'ve worked on several projects using different technologies. You can find more information about these on my projects page. \n\n Through my education I have found a love for UI design and other front-end development. I have a strong education background, love to learn new things and see each new project as another puzzle to solve.'
+export const firstname = "Faith"
+export const lastname = "Welton"
+export const email = "mailto:faithmadore@hotmail.com"
+export const linkedin = "https://www.linkedin.com/in/faithwelton/"
+
+export const aboutSchool = "I\'m a fresh graduate from Conestoga College\'s SET Program where I got the chance to work "
+                            + "with various technologies through practical assignments. You can find more information "
+                            + "about these projects and see the code on my " + <a href='https://faithisa.dev/code-projects'>projects</a> + " page."
+export const aboutBackground = "Through my education, I have found a love for UI design and other front-end development. "
+                            + "I have a strong education background, love to learn new things and see each new project as "
+                            + "another puzzle to be solved!"
+
 export const intro = 'Hi, I\'m ' + firstname + '!'
 
 /* Education */

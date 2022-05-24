@@ -17,7 +17,9 @@ export default function About() {
 
                 <section className={utilStyles.p}>
                     <div class="about-me">
-                        <p>{Constants.about}</p>
+                        <p>{Constants.aboutSchool}</p>
+                        <br/>
+                        <p>{Constants.aboutBackground}</p>
 
                         <h3>Education</h3>
                         <div class="about=me">

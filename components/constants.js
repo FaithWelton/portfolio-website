@@ -4,6 +4,7 @@ export const footer = <strong>This website was made by Faith Welton - Updated 20
 export const firstname = "Faith"
 export const lastname = "Welton"
 export const email = "mailto:faithmadore@hotmail.com"
+
 export const linkedin = "https://www.linkedin.com/in/faithwelton/"
 
 export const aboutSchool = "I\'m a fresh graduate from Conestoga College\'s SET Program where I got the chance to work "

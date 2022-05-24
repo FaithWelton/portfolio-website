@@ -20,7 +20,11 @@ export default function About() {
                         <p>{Constants.about}</p>
 
                         <h3>Education</h3>
-                        <p class="about=me">{Constants.education}</p>
+                        <div class="about=me">
+                            {Constants.education.map(x => {
+                                return(<p>{x.content}</p>)
+                            })}
+                        </div>
 
                         <h3>Skills</h3>
                         <div class="skills-rows">

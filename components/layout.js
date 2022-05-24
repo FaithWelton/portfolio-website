@@ -19,7 +19,7 @@ export default function Layout({ children }) {
                 <img src="/images/profile.jpg" className={utilStyles.borderCircle} height={144} width={144} alt={Constants.name} />
                 <h2 className={utilStyles.headingXl}>
                     <Link href="/">
-                        <a className={utilStyles.colorInherit}>{Constants.name}</a>
+                        <a className={utilStyles.colorInherit}>{Constants.intro}</a>
                     </Link>
                 </h2>
                 <div className="menu-bar">

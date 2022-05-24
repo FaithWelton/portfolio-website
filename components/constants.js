@@ -1,11 +1,28 @@
 export const siteTitle = 'Faith\'s Portfolio'
-export const footer = <strong>This website was made by Faith Welton</strong>
+export const footer = <strong>This website was made by Faith Welton - Updated 2022</strong>
 
-export const name = 'Hi, I\'m Faith!'
+export const firstname = 'Faith'
+export const lastname = 'Welton'
 export const email = 'mailto:faithmadore@hotmail.com'
 export const linkedin = 'https://www.linkedin.com/in/faithwelton/'
 export const about = 'I am a fresh graduate from Conestoga College\'s SET program, where I\'ve worked on several projects using different technologies. You can find more information about these on my projects page. Through my education I have found a love for UI design and other front-end development. I have a strong education background, love to learn new things and see each new project as another puzzle to solve.'
-export const education = 'Conestoga College - Software Engineering Technology (2019 - 2022)'
+export const intro = 'Hi, I\'m ' + firstname + '!'
+
+/* Education */
+export const education = [
+    {
+        title: "SET",
+        content: 'Conestoga College - Software Engineering Technology (2019 - 2022)'
+    },
+    {
+        title: "Culinary",
+        content: 'Conestoga College - Culinary Arts - Chef Training (2014 - 2015)'
+    },
+    {
+        title: "Business",
+        content: 'Conestoga College - Business Foundations (2014)'
+    },
+]
 
 /* Projects */
 export const projects = [

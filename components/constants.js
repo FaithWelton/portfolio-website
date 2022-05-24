@@ -8,7 +8,7 @@ export const linkedin = "https://www.linkedin.com/in/faithwelton/"
 
 export const aboutSchool = "I\'m a fresh graduate from Conestoga College\'s SET Program where I got the chance to work "
                             + "with various technologies through practical assignments. You can find more information "
-                            + "about these projects and see the code on my " + <a href='https://faithisa.dev/code-projects'>projects</a> + " page."
+                            + "about these projects and see the code on my projects page."
 export const aboutBackground = "Through my education, I have found a love for UI design and other front-end development. "
                             + "I have a strong education background, love to learn new things and see each new project as "
                             + "another puzzle to be solved!"
